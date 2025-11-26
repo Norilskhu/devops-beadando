@@ -9,8 +9,14 @@ Terminálban a következő parancsokkal lehet buildelni a projektet
 1. npm i
 2. ng serve --port 8080
 
-## GENERATED README CONTENT BELOW ## 
+## Docker build és run
+Terminálban a következő parancsokkal lehet docker image-t készíteni
 
+Image build: `docker build -t hello-devops:v1 .`
+Futtatás: `docker run -p 8080:80 hello-devops:v1`
+
+
+## GENERATED README CONTENT BELOW ##
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.1.
 
 ## Development server
