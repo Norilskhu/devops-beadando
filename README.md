@@ -1,4 +1,15 @@
 # DevopsBeadando
+Alább található a projekt generálása után automatikusan létrehozott, valamint az általam kézzel készített leírás is.
+
+## SAJÁT README TARTALOM ##
+
+## Build
+Terminálban a következő parancsokkal lehet buildelni a projektet
+
+1. npm i
+2. ng serve --port 8080
+
+## GENERATED README CONTENT BELOW ## 
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.1.
 
@@ -7,10 +18,10 @@ This project was generated using [Angular CLI](https://github.com/angular/angula
 To start a local development server, run:
 
 ```bash
-ng serve
+ng serve --port 8080
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Once the server is running, open your browser and navigate to `http://localhost:8080/`. The application will automatically reload whenever you modify any of the source files.
 
 ## Code scaffolding
 
