@@ -10,11 +10,14 @@ Terminálban a következő parancsokkal lehet buildelni a projektet
 2. ng serve --port 8080
 
 ## Docker build és run
-Terminálban a következő parancsokkal lehet docker image-t készíteni
+Terminálban a következő parancsokkal lehet docker image-t készíteni és futtatni.
+A parancsok használatához szükséges elindítani a Docker Desktop alkalmazást.
 
 Image build: `docker build -t hello-devops:v1 .`
 Futtatás: `docker run -p 8080:80 hello-devops:v1`
 
+## Cloud deployment
+Kell egy static.json a deploymenthez.
 
 ## GENERATED README CONTENT BELOW ##
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.1.
