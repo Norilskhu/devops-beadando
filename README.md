@@ -4,7 +4,7 @@ Alább található a projekt generálása után automatikusan létrehozott, vala
 ## SAJÁT README TARTALOM ##
 
 ## Build
-Terminálban a következő parancsokkal lehet buildelni a projektet
+Terminálban a következő parancsokkal lehet lokálisan buildelni és futtatni a projektet.
 
 1. npm i
 2. ng serve --port 8080
@@ -17,7 +17,11 @@ Image build: `docker build -t hello-devops:v1 .`
 Futtatás: `docker run -p 8080:80 hello-devops:v1`
 
 ## Cloud deployment
-Kell egy static.json a deploymenthez.
+A publikáláshoz a render.com oldalt használtam. Az app elérhető az alábbi címen: https://devops-beadando.onrender.com/
+Mivel egy statikus angular appot készítettem, pluszban kellett egy static.json a deploymenthez.
+A sikeres deployhoz a render oldalán meg kellett adni a repository linkjét, a branch nevét, build parancsokat (npm install && npm run build) és a publish directoryt.
+A publish directory értékéhez lokálisan kiadtam az ng build parancsot, amivel létrejött a dist mappa, azon belül pedig egy devops-beadando nevű mappa. Ezt adtam meg publish directoryként (dist/devops-beadando/browser).
+Ezután a render automatikusan felépítette és publikálta az alkalmazást.
 
 ## GENERATED README CONTENT BELOW ##
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.1.
