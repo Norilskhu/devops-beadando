@@ -6,8 +6,13 @@ Alább található a projekt generálása után automatikusan létrehozott, vala
 ## Build
 Terminálban a következő parancsokkal lehet lokálisan buildelni és futtatni a projektet.
 
+Fejlesztői futtatás:
 1. npm i
 2. ng serve --port 8080
+
+Production build:
+1. npm i
+2. npm run build
 
 ## Docker build és run
 Terminálban a következő parancsokkal lehet docker image-t készíteni és futtatni.
